@@ -10,16 +10,9 @@ header {
   color: #3f1622;
 }
 
-nav > ol {
-  font-family: "PT Sans", sans-serif;
-  font-size: 1.25rem;
-  color: #8f2440;
-  list-style-type: none;
-  text-decoration: none;
-}
-
 a:link {
   color: #8f2440;
+  text-decoration: none;
 }
 
 a:hover {
@@ -33,6 +26,15 @@ figcaption {
   text-align: center;
 }
 
+article {
+  font-family: "PT Serif", serif;
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  color: #3f1622;
+}
+
 article > p:first-child {
   font-size: 1.125rem;
   font-weight: bold;
@@ -42,4 +44,16 @@ blockquote {
   font-size: 1.5rem;
   font-style: italic;
   font-weight: normal;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+
+nav > ol {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.25rem;
+  color: #8f2440;
+  list-style-type: none;
+  text-decoration: none;
 }
