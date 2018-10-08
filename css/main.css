@@ -21,27 +21,27 @@ a:hover {
 }
 
 img {
-  width: 510px;
+  width: 495px;
 }
 
 figcaption {
   font-family: "PT Serif", serif;
-  font-size: .8rem;
   font-style: italic;
   text-align: center;
 }
 
-article {
+body {
   font-family: "PT Serif", serif;
 }
 
 h2 {
   font-family: "PT Sans", sans-serif;
+  font-size: 1.25rem;
   color: #3f1622;
 }
 
 article > p:first-child {
-  font-size: .8rem;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
@@ -49,6 +49,10 @@ blockquote > p:first-child {
   font-size: 1.5rem;
   font-style: italic;
   font-weight: normal;
+}
+
+blockquote > p:nth-child(2) {
+  font-size: .8rem;
 }
 
 ol {
