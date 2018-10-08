@@ -1,21 +1,21 @@
-body {
+html {
   background-color: #c9b5ab;
   line-height: 1.5;
 }
 
 header {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: #3f1622;
 }
 
 nav > ol {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.25rem;
   color: #8f2440;
-  list-style-type:none;
-  text-decoration:none;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 a:link {
@@ -24,17 +24,17 @@ a:link {
 
 a:hover {
   color: #3f1622;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 figcaption {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-style: italic;
   text-align: center;
 }
 
-p:first-child {
-  font-size: 1.1255rem;
+article > p:first-child {
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
