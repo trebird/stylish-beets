@@ -21,11 +21,12 @@ a:hover {
 }
 
 img {
-  width: 500px;
+  width: 510px;
 }
 
 figcaption {
   font-family: "PT Serif", serif;
+  font-size: .8rem;
   font-style: italic;
   text-align: center;
 }
