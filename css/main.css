@@ -10,7 +10,7 @@ header {
   color: #3f1622;
 }
 
-a:link {
+a {
   color: #8f2440;
   text-decoration: none;
 }
@@ -40,7 +40,7 @@ article > p:first-child {
   font-weight: bold;
 }
 
-blockquote {
+blockquote > p:first-child {
   font-size: 1.5rem;
   font-style: italic;
   font-weight: normal;
@@ -56,4 +56,12 @@ nav > ol {
   color: #8f2440;
   list-style-type: none;
   text-decoration: none;
+}
+
+dl > dd:first-child, dt:first-child {
+  font-style: italic;
+}
+
+ul {
+  list-style-type: circle;
 }
