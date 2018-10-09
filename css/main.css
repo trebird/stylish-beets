@@ -1,6 +1,9 @@
 html {
   background-color: #c9b5ab;
   color: #222;
+  line-height: 1.5;
+  border-width: 608px;
+  height: 1635px;
 }
 
 header {
@@ -14,10 +17,12 @@ body {
   line-height: 1.5;
 }
 
-a {
+a,
+a:link {
+  font-family: "PT Sans", sans-serif;
   color: #8f2440;
-  text-decoration: none;
   font-size: 1.25rem;
+  text-decoration: none;
 }
 
 a:hover {
@@ -48,15 +53,16 @@ h2 {
 }
 
 article > p:first-child {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
   font-size: 1.25rem;
-  font-weight: 800;
+  line-height: 1.5;
 }
 
 blockquote > p:first-child {
   font-family: "PT Serif", serif;
   font-size: 1.5rem;
   font-style: italic;
-  font-weight: bold;
 }
 
 blockquote > p:nth-child(2) {
@@ -81,6 +87,7 @@ dl > dt:first-child {
 }
 
 dd ~ dt {
+  font-family: "PT Serif", serif;
   font-weight: bold;
 }
 
@@ -89,6 +96,8 @@ ul {
   font-size: .8rem;
 }
 
-footer > a {
-  color: #8f2440;
+footer {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: .8rem;
 }
