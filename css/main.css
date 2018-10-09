@@ -1,7 +1,7 @@
 html {
   background-color: #c9b5ab;
   color: #222;
-  line-height: 1.5;
+  line-height: normal;
 }
 
 header {
@@ -30,26 +30,30 @@ figcaption {
   font-family: "PT Serif", serif;
   font-style: italic;
   text-align: center;
+  font-weight: normal;
 }
 
-body {
+body, article {
   font-family: "PT Serif", serif;
+  line-height: 1.5;
 }
 
 h2 {
   font-family: "PT Sans", sans-serif;
+  font-size: 1.25rem;
   color: #3f1622;
 }
 
 article > p:first-child {
   font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 blockquote > p:first-child {
+  font-family: "PT Serif", serif;
   font-size: 1.5rem;
   font-style: italic;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 blockquote > p:nth-child(2) {
@@ -57,6 +61,7 @@ blockquote > p:nth-child(2) {
 }
 
 ol {
+  font-family: "PT Serif", serif;
   list-style-type: lower-greek;
 }
 
@@ -68,10 +73,19 @@ nav > ol {
   text-decoration: none;
 }
 
-dl > dd:first-child {
+dl > dt:first-child {
   font-style: italic;
+}
+
+dl > dt {
+  font-weight: bold;
 }
 
 ul {
   list-style-type: circle;
+  font-size: .8rem;
+}
+
+footer > a {
+  color: #8f2440;
 }
