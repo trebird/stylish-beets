@@ -95,7 +95,7 @@ ul {
   font-size: .8rem;
 }
 
-footer, a:last-of-type {
+footer > a:link {
   font-family: "PT Serif", serif;
   font-weight: bold;
   font-size: .8rem;
