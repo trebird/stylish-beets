@@ -1,7 +1,6 @@
 html {
   background-color: #c9b5ab;
   color: #222;
-  line-height: normal;
 }
 
 header {
@@ -9,6 +8,10 @@ header {
   font-size: .8rem;
   font-weight: bold;
   color: #3f1622;
+}
+
+body {
+  line-height: 1.5;
 }
 
 a {
@@ -40,7 +43,7 @@ body, article {
 
 h2 {
   font-family: "PT Sans", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #3f1622;
 }
 
@@ -77,7 +80,7 @@ dl > dt:first-child {
   font-style: italic;
 }
 
-dl > dt {
+dd ~ dt {
   font-weight: bold;
 }
 
