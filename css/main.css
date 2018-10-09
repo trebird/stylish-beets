@@ -17,8 +17,7 @@ body {
   line-height: 1.5;
 }
 
-a,
-a:link {
+a {
   font-family: "PT Sans", sans-serif;
   color: #8f2440;
   font-size: 1.25rem;
@@ -96,7 +95,7 @@ ul {
   font-size: .8rem;
 }
 
-footer {
+footer, a:last-of-type {
   font-family: "PT Serif", serif;
   font-weight: bold;
   font-size: .8rem;
