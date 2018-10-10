@@ -83,6 +83,7 @@ nav > ol {
 
 dl > dt:first-child {
   font-style: italic;
+  margin-bottom: 10px;
 }
 
 dd ~ dt {
@@ -95,7 +96,7 @@ ul {
   font-size: .8rem;
 }
 
-footer > a:link {
+footer a {
   font-family: "PT Serif", serif;
   font-weight: bold;
   font-size: .8rem;
